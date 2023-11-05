@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #806B60;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #A287AB;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #A2B8B5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+article, aside {
+  padding: 20px;
+  background-color: #E3D9BA;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: block;
+  }
+}
